@@ -1,0 +1,16 @@
+*{
+    background-color: #003049;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    display: grid;
+    grid-template-columns: auto 200px;
+    max-width: 1200px;
+    gap: 20px;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+

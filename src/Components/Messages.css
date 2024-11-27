@@ -1,0 +1,33 @@
+.message {
+    border-radius: 15px;
+    background-color: #669bbc;
+    margin: 10px 0px;
+    display: grid;
+    grid-template-columns: 100px auto;
+}
+
+p {
+    background-color: #669bbc;
+    color: #fdf0d5;
+    padding: 10px;
+    font-size: 18px;
+}
+i {
+    background-color: inherit;
+    padding: 25px 0;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.wrapper {
+    height: calc(100vh - 300px);
+    overflow-y: scroll;
+    scroll-behavior: auto;
+    margin-bottom: 20px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+    
+}
